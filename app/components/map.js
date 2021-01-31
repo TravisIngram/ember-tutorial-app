@@ -1,8 +1,7 @@
 import Component from '@glimmer/component';
 import ENV from 'super-rentals/config/environment';
 
-const MAPBOX_API =
-  'https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/';
+const MAPBOX_API = 'https://api.mapbox.com/styles/v1/mapbox/streets-v11/static';
 
 export default class MapComponent extends Component {
   get src() {
