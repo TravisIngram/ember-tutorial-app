@@ -33,7 +33,7 @@ module('Integration | Component | map', function (hooks) {
     );
 
     assert.ok(
-      src.includes('-122.4184,37.7797,10'),
+      src.includes('-122.4184,37.7797,9'),
       'the src should include the lng,lat,zoom parameter'
     );
 
